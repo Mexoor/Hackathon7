@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(#fff,#40a5be);
+    background-attachment: fixed;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    block-size: 25em;
+    transition: ease-in .7s;
+}
+ul{
+    list-style-position: inside;
+}
+
+ul,li{
+    font-size: 1.9em;
+    text-align: center;
+    padding-top: .5em;
+    transition: .9s;
+    list-style-type:decimal;
+}
+a{
+    font-size: 2.5em;
+    text-decoration: none;
+    color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .9em;
+}
