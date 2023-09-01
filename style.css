@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 Header{
@@ -24,19 +25,19 @@ img{
     padding-top: 2em;
     padding-bottom: 3em;
     block-size: 25em;
-    animation-duration: 3s;
-    transition: ease-in .7s;
+    animation: w70 3s ease forwards;
 }
 ul{
     list-style-position: inside;
 }
-
 ul,li{
     font-size: 1.9em;
     text-align: center;
     padding-top: .5em;
     transition: .9s;
     list-style-type:decimal;
+    background-color: blue;
+    display: block;
 }
 a{
     font-size: 2.5em;
@@ -46,4 +47,22 @@ a{
     justify-content: center;
     align-items: center;
     padding-top: .9em;
+}
+
+@keyframes w70{
+    0%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes w10{
+    
 }
