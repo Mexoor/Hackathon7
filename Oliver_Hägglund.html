@@ -4,34 +4,112 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>About Oliver</title>
-        <link rel="stylesheet" href="style.css" />
+        <style>
+            * {
+                text-align: center;
+                color: rgb(170, 22, 170);
+                font-family: serif;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            a {
+                color: rgb(170, 22, 170);
+                text-decoration: none;
+                font-size: 16px;
+            }
+            p {
+                font-size: 30px;
+            }
+            body {
+                background: url(./img/Oliver_Background.jpg) no-repeat center
+                    center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+            h1 {
+                text-align: center;
+                color: rgb(170, 22, 170);
+                font-size: 60px;
+            }
+            img {
+                border-radius: 50%;
+            }
+            .info {
+                background-color: rgba(0, 0, 0, 0.7);
+                max-width: 600px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 10px;
+            }
+            .first-container {
+                display: inline;
+                padding: 2px;
+                padding: 10px;
+                font-size: 20px;
+            }
+            .second-container {
+                display: inline;
+                padding: 10px;
+            }
+            .banner {
+                background-color: grey;
+                height: 100px;
+                width: 100%;
+                padding: 0px;
+                margin: 0px;
+                font-size: 80px;
+            }
+            button {
+                background-color: #a3a5a3; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                border-radius: 10px;
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+                    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+        </style>
     </head>
     <body>
-        <h1>Oliver Hägglund</h1>
+        <div class="banner">Oliver Hägglund</div>
+        <br />
 
-        <img src="./img/kattunge.jfif" alt="kattunge" />
-        <h2>Saker jag är bra på</h2>
-        <ul>
-            <li>Komma i tid</li>
-            <li>Köra bil</li>
-            <li>Laga mat</li>
-            <li>Kolla Youtube</li>
-        </ul>
+        <img src="./img/Profilbild_Oliver.jpg" alt="kattunge" />
+        <div class="info">
+            <h1>Saker jag är bra på</h1>
+            <br />
+            <p>1. Köra bil</p>
+            <br />
+            <p>2. Komma i tid</p>
+            <br />
+            <p>3. Laga mat</p>
+            <br />
+            <p>4. Kolla på youtube</p>
+        </div>
 
-        <h3>Länk till min github</h3>
-
-        <a href="https://github.com/OHagglund" target="_blank">
-            <img
-                src="./img/github_logo.png"
-                alt="HTML tutorial"
-                style="width: 42px; height: 42px"
-            />
-        </a>
+        <div class="first-container">Länk till min Github.</div>
+        <div class="second-container">
+            <a href="https://github.com/OHagglund" target="_blank">
+                <img
+                    src="./img/github_logo.png"
+                    alt="HTML tutorial"
+                    style="width: 42px; height: 42px"
+                />
+            </a>
+        </div>
 
         <br />
         <br />
         <br />
 
-        <a href="index.html">Back to homepage</a>
+        <button><a href="index.html">Back to homepage</a></button>
     </body>
 </html>
