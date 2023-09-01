@@ -30,8 +30,7 @@ img{
 ul{
     list-style-position: inside;
 }
-
-li{
+ul,li{
     font-size: 1.9em;
     text-align: center;
     padding-top: .5em;
