@@ -19,6 +19,7 @@ img{
     padding-top: 2em;
     padding-bottom: 3em;
     block-size: 25em;
+    animation-duration: 3s;
     transition: ease-in .7s;
 }
 ul{
